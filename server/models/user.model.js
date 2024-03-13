@@ -1,7 +1,7 @@
 import moongoose from "mongoose";
 const UserSchema = moongoose.Schema(
   {
-    userName: {
+    username: {
       type: String,
       required: true,
       unique: true,
