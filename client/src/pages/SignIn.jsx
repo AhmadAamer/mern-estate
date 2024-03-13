@@ -1,5 +1,3 @@
-import React from "react";
-
-export default function SignIn() {
+export default function SignOut() {
   return <div>SignIn</div>;
 }
