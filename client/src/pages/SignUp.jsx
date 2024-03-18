@@ -82,7 +82,10 @@ export default function SignUp() {
           <span className="text-blue-800"> sign in </span>
         </Link>
       </div>
-      {err && <p className="text-red-700">{err}</p>}
+      {err && <p className="text-red-700">{err}</p>}&&
+      {!err && (
+        <p className="text-green-700">signing up completed successfully </p>
+      )}
     </div>
   );
 }
