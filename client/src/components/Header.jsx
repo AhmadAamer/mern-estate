@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="bg-slate-200 shadow-md">
-      <div className="flex justify-between items-center max-w-6xl mx-auto p-4">
+    <header className="bg-gray-300 shadow-md">
+      <div className="flex justify-between items-center max-w-6xl mx-auto p-4 font-semibold font-serif">
         <Link to="/">
           <h1 className="font-bold text:sm sm:text-3xl flex flex-wrap">
-            <span className="text-gray-800 ">Aamer</span>
+            <span className="text-gray-800 ">3amer</span>
             <span className="text-gray-500">Estates</span>
           </h1>
         </Link>
